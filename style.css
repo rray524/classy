@@ -1,0 +1,389 @@
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: sintony;
+    src: url(Sintony-Bold.ttf);
+}
+
+@font-face {
+    font-family: LibreBaskerville;
+    src: url(LibreBaskerville-Regular.ttf);
+}
+
+@font-face {
+    font-family: MyriadPro;
+    src: url(MYRIADPRO-REGULAR.OTF);
+}
+
+
+/**********bg area********/
+
+.bg_area {
+    background-image: url(bg.jpg)
+}
+
+nav {
+    padding-left: 756px;
+    padding-top: 50px;
+}
+
+.logo_one {
+    display: inline;
+    float: left;
+    padding-left: 239px;
+    padding-top: 38px;
+}
+
+nav>ul#menu>li {
+    display: inline;
+    padding-left: 40px;
+}
+
+nav>ul#menu>li>a {
+    text-decoration: none;
+    font-family: sintony;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.pseudo {
+    position: relative;
+}
+
+.pseudo::before {
+    background: #fff none repeat scroll 0 0;
+    content: "";
+    height: 2px;
+    left: 458px;
+    position: absolute;
+    top: 8px;
+    width: 121px;
+}
+
+.pseudo::after {
+    background: #fff;
+    content: "";
+    height: 2px;
+    right: 458px;
+    position: absolute;
+    top: 8px;
+    width: 121px;
+}
+
+.heading {
+    margin-top: 180px;
+}
+
+.heading>h2 {
+    font-family: LibreBaskerville;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.since {
+    padding-bottom: 222px;
+}
+
+.since>h4 {
+    font-family: LibreBaskerville;
+    font-style: italic;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.arrow {
+    text-align: center;
+    padding-bottom: 43px;
+}
+
+
+/********team area***********/
+
+.team {
+    background-color: #FFFFFF;
+}
+
+.meet_heading {
+    text-align: center;
+}
+
+.meet_heading>h3 {
+    font-family: LibreBaskerville;
+    font-size: 36px;
+    color: #363636;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.meet_heading>img {
+    padding-bottom: 45px;
+}
+
+.team_one {
+    text-align: center;
+}
+
+.team_one>img {
+    border-radius: 50%;
+}
+
+.team_one>h3 {
+    font-family: LibreBaskerville;
+    font-size: 18px;
+    font-weight: bold;
+    color: #363636;
+    padding-top: 11px;
+}
+
+.team_one>p {
+    font-family: LibreBaskerville;
+    font-size: 14px;
+    font-style: italic;
+    color: #ADADAD;
+    padding: 14px 37px 64px 37px;
+}
+
+
+/**********owl carousel css********/
+
+#owl-demo .item {
+    padding: 30px 0px;
+    margin: 5px;
+    color: #FFF;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.owl-carousel {}
+
+
+/*************slider**************/
+
+.social_bg {
+    background-image: url(social.png)
+}
+
+.bttn {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.btn-group-lg > .btn,
+.btn-lg {
+    border-radius: 6px;
+    color: #989898;
+    font-family: sintony;
+    font-size: 16px;
+    line-height: 1.33333;
+    padding: 16px 29px;
+}
+
+.btn-default {
+    background-color: #fff;
+    border-color: #ffffff;
+    border-bottom-color: #D3D3D3;
+}
+
+.fa {
+    font-size: 26px;
+    padding-right: 9px;
+}
+
+
+/************contact area*************/
+
+.contact {
+    background-color: #C53463;
+}
+
+.conct_cen {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contact_us_txt {}
+
+.contact_us_txt>h4 {
+    font-family: LibreBaskerville;
+    font-size: 36px;
+    color: #fff;
+}
+
+.contact_hr {}
+
+.contact_hr>img {}
+
+.pad_top {
+    padding-top: 75px;
+}
+
+.pad_btm {
+    padding-bottom: 22px;
+}
+
+.padd {
+    padding: 0;
+}
+
+.pad_btttm {
+    padding-bottom: 87px;
+}
+
+.input_user {
+    padding-bottom: 21px;
+}
+
+.input_pass {
+    padding-bottom: 21px;
+}
+
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border-radius: 6px;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    height: 60px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    width: 100%;
+}
+
+input:placeholder-shown {
+    color: #DCDCDC;
+    font-family: LibreBaskerville;
+    font-size: 20px;
+}
+
+#usr:-moz-placeholder {
+    color: #DCDCDC;
+    font-family: LibreBaskerville;
+    font-size: 20px;
+}
+
+#usr::-moz-placeholder {
+    color: #DCDCDC;
+    font-family: LibreBaskerville;
+    font-size: 20px;
+}
+
+#usr:-ms-input-placeholder {
+    color: #DCDCDC;
+    font-family: LibreBaskerville;
+    font-size: 20px;
+}
+
+#psd::-webkit-input-placeholder {
+    color: #696969;
+    font-family: LibreBaskerville;
+    font-size: 20px;
+}
+
+#psd:-moz-placeholder {
+    color: #696969;
+    font-family: LibreBaskerville;
+    font-size: 20px;
+}
+
+#psd::-moz-placeholder {
+    color: #696969;
+    font-family: LibreBaskerville;
+    font-size: 20px;
+}
+
+#psd:-ms-input-placeholder {
+    color: #696969;
+    font-family: LibreBaskerville;
+    font-size: 20px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+
+/******for making width same in both chrome & mozila****/
+
+textarea {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.bttn_lg {
+    font-family: LibreBaskerville;
+    font-size: 20px;
+    font-weight: bold;
+    color: #999999;
+}
+
+.btn-primary {
+    background-color: #323232;
+    border: 0px;
+}
+
+.address {
+    font-family: LibreBaskerville;
+    font-style: italic;
+    font-size: 18px;
+    color: #F4E0E5;
+}
+
+
+/**************footer area***********/
+
+.footer {
+    background-color: #323232;
+}
+
+.nav {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.menus>li {
+    list-style: none;
+    display: inline;
+}
+
+#menuone>.nav>ul.menus>li>a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: sintony;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding-left: 26px;
+}
+
+.social_image {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.social_image>a>img {
+    padding-left: 35px;
+}
+
+.social_image>a:focus {
+    outline: none;
+}
+
+
+/***********copy right area************/
+
+.copyright {
+    background-color: #303030;
+}
+
+.copy_text>h6 {
+    font-family: myriadpro;
+    font-size: 10px;
+    font-style: regular;
+    color: #5D5D5D;
+}
