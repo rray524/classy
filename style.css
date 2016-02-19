@@ -21,12 +21,16 @@ body {
 
 /**********bg area********/
 
+.slicknav_menu {
+    display: none;
+}
+
 .bg_area {
     background-image: url(bg.jpg)
 }
 
 nav {
-    padding-left: 756px;
+    padding-left: 555px;
     padding-top: 50px;
 }
 
@@ -358,7 +362,7 @@ textarea {
     font-size: 14px;
     font-weight: bold;
     color: #fff;
-    padding-left: 26px;
+    padding: 14px;
 }
 
 .social_image {
@@ -367,11 +371,15 @@ textarea {
 }
 
 .social_image>a>img {
-    padding-left: 35px;
+    padding: 9px;
 }
 
 .social_image>a:focus {
     outline: none;
+}
+
+.menus {
+    padding-left: 0;
 }
 
 

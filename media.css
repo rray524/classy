@@ -1,4 +1,7 @@
 @media(min-width:768px) and (max-width:991px) {
+    .slicknav_menu {
+        display: none;
+    }
     .pdm {
         padding-bottom: 19px;
     }
@@ -21,10 +24,26 @@
         padding-top: 60px;
         text-align: center;
         padding-left: 0;
+    }
+    .menus {
+        padding-left: 0;
+    }
+    .logo_one {
+        display: inline;
+        float: left;
+        padding-left: 171px;
+        padding-top: 38px;
+    }
+    nav {
+        padding-left: 215px;
+        padding-top: 55px;
     }
 }
 
 @media(min-width:320px) and (max-width:767px) {
+    .slicknav_menu {
+        display: block;
+    }
     .pdm {
         padding-bottom: 19px;
     }
@@ -47,5 +66,55 @@
         padding-top: 60px;
         text-align: center;
         padding-left: 0;
+    }
+    .menus {
+        padding-left: 0;
+    }
+    .meet_heading > h3 {
+        color: #363636;
+        font-family: LibreBaskerville;
+        font-size: 31px;
+        padding-bottom: 15px;
+        padding-top: 40px;
+    }
+    .bttn {
+        padding-bottom: 45px;
+        text-align: center;
+    }
+    .btn-group-lg > .btn,
+    .btn-lg {
+        border-radius: 6px;
+        color: #989898;
+        font-family: sintony;
+        font-size: 16px;
+        line-height: 1.33333;
+        padding: 16px 19px;
+    }
+    .pseudo {
+        position: relative;
+    }
+    .pseudo::before {
+        background: #fff none repeat scroll 0 0;
+        content: "";
+        height: 2px;
+        left: 36px;
+        position: absolute;
+        top: 8px;
+        width: 44px;
+    }
+    .pseudo::after {
+        background: #fff none repeat scroll 0 0;
+        content: "";
+        height: 2px;
+        position: absolute;
+        right: 36px;
+        top: 8px;
+        width: 44px;
+    }
+    .logo_one {
+        display: none;
+    }
+    #menu {
+        display: none;
     }
 }
