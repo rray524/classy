@@ -33,6 +33,12 @@
 </head>
 
 <body>
+    <div class="covervid-wrapper">
+    <video class="covervid-video" autoplay loop>
+            <source src="dreamscapes.mp4" type="video/mp4">
+			<source src="dreamscapes.webm" type="video/webm">
+    </video>
+   </div>
     <section class="bg_area">
         <div class="logo_one">
             <a href="#"><img src="logo_one.png" alt="logo"></a>
@@ -296,7 +302,9 @@
     <script>
         $(function () {
             $('#menu').slicknav();
+            $('.covervid-video').coverVid(1920, 1080);
         });
+
     </script>
 </body>
 
